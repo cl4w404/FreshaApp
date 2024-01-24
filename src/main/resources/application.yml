@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: devcorp
+    url: jdbc:sqlserver://devcorp.database.windows.net:1433;database=employee;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    password: Ngigi-2022
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9191
