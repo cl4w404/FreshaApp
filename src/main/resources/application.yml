@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: devcorp
-    url: jdbc:sqlserver://devcorp.database.windows.net:1433;database=employee;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://devcorp.database.windows.net:1433;database=fresha;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     password: Ngigi-2022
 
   jpa:

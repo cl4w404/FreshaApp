@@ -21,11 +21,13 @@ public class User {
     private long id;
     private String name;
     private String email;
+    private long phoneNo;
     private String password;
 
-    public User(String name, String email, String password) {
+    public User(String name, String email, String password, long phoneNo) {
         this.name = name;
         this.email = email;
         this.password = password;
+        this.phoneNo = phoneNo;
     }
 }
