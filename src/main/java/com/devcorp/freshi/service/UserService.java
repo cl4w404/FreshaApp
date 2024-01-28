@@ -29,7 +29,4 @@ public class UserService {
         return (User)this.userRepository.save(user);
     }
 
-    public Optional<User> findByNo(long phoneNo){
-        return userRepository.findByPhone(phoneNo);
-    }
 }

@@ -39,12 +39,6 @@ public class UserController {
     public ResponseEntity<User> addUser(@RequestBody User user) {
         return new ResponseEntity(this.userService.addUser(user), HttpStatus.OK);
     }
-
-    @GetMapping("/{phoneNo}")
-    public ResponseEntity<Optional<User>> getUserByPhone(long phoneNo){
-         return new ResponseEntity<Optional<User>>(userService.findByNo(phoneNo), HttpStatus.OK);
-    }
-
     @PostMapping({"/logIn"})
     public ResponseEntity<String> logIn(@RequestBody Map<String, String> request) {
         String email = (String)request.get("email");
