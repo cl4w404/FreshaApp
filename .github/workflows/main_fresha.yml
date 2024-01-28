@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'fresha'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B332FD83D4824473B0B407A9F8DCCFCC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB6EDFCF9A2F4F30BBBCE04DA7ED4061 }}
           package: '*.jar'
